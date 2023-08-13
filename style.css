@@ -489,6 +489,11 @@ strong {
   margin: 0 auto;
 }
 
+.project-list .project-card figure > img {
+  object-position: 25% 0%;
+}
+
+
 @media all and (min-width: 768px) {
   .project-skills ul li {
     max-width: 16%;
@@ -610,9 +615,6 @@ strong {
     flex: 1 1 50%;
   }
 
-  .project-list .project-card figure > img {
-    object-position: 5% 50%;
-  }
 
   .project-list .project-card .content {
     display: -webkit-box;
