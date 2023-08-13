@@ -610,6 +610,10 @@ strong {
     flex: 1 1 50%;
   }
 
+  .project-list .project-card figure > img {
+    object-position: 10% 50%;
+  }
+
   .project-list .project-card .content {
     display: -webkit-box;
     display: -ms-flexbox;
